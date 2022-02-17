@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .cards {
     display: flex;
+    gap: 20px;
 }
 .card {
     display: flex;
@@ -144,3 +145,25 @@ h1, h2, h3, h4, h5, h6 {
      justify-content: center;
      height: 50px;
  }
+
+.top img {
+    width: 60%;
+    border-radius: 20px;
+}
+#one {
+    width: 106.6%;
+}
+#two {
+    width: 100%;
+}
+
+#three {
+    width: 100%;
+}
+#four {
+    width: 100%;
+}
+
+.info img {
+    border-radius: 6px;
+}
