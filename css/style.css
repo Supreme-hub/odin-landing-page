@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+a, .focus p {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+header {
+    margin: 0;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    display: flex;
+    background: #1F2937;
+}
+
+header h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+main {
+    padding: 0;
+}
+
+.top {
+    padding: 10%;
+    display: flex;
+    gap: 5%;
+    background: #1F2937;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.focus {
+    width: 50%;
+}
+
+.focus h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.focus input {
+    background: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.info {
+    display: flex;
+    padding: 7%;
+    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+.info h3, .quote h5 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.cards {
+    display: flex;
+}
+.card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+    padding: 5%;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote h5 {
+    font-size: 18px;
+}
+
+.action-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 7%;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #3882F6;
+    border-radius: 5px;
+    padding: 3% 8%;
+}
+ .action h4 {
+     color: #F9FAF8;
+     font-size: 24px;
+ }
+
+ .action p {
+     font-size: 18px;
+     color: #E5E7EB;
+ }
+
+ .action input {
+     background: #3882F6;
+     color: #F9FAF8;
+     border: 1px solid white;
+     border-radius: 5px;
+     padding: 10px;
+     height: 35px;
+ }
+
+ footer {
+     display: flex;
+     background: #1F2937;
+     color: #E5E7EB;
+     align-items: center;
+     justify-content: center;
+     height: 50px;
+ }
